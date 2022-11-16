@@ -13,7 +13,8 @@ import Quiz from './screens/quiz';
 const App = () => {
   return (
     <View  style={styles.container}>
-      <Home /> 
+      {/* <Home />  */}
+      <Quiz />
     </View>
   );
 };
@@ -22,7 +23,7 @@ export default App;
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 25,
-    paddingHorizontal: 140,
+    paddingTop: 20,
+    paddingHorizontal: 8,
   },
 });
